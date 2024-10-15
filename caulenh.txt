@@ -542,6 +542,56 @@ Fast-forward
  create mode 100644 text_branch_2.txt
  create mode 100644 text_branch_3.txt
  create mode 100644 text_branch_4.txt
+thuy linh@T1Odnoliub MINGW64 /c/Code/Bai_tap_THCS/24174600134_Nguyen_Thuy_Linh_bai_tap (branch_1)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/odnoliubz/24174600134_Nguyen_Thuy_Linh_bai_tap.git
+   0e4bef2..51d28c6  branch_1 -> branch_1
+
+thuy linh@T1Odnoliub MINGW64 /c/Code/Bai_tap_THCS/24174600134_Nguyen_Thuy_Linh_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 10 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+thuy linh@T1Odnoliub MINGW64 /c/Code/Bai_tap_THCS/24174600134_Nguyen_Thuy_Linh_bai_tap (main)
+$ git pull
+Updating 3e2761c..51d28c6
+Fast-forward
+ text_branch_1.txt | 8 ++++++++
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 4 files changed, 11 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+thuy linh@T1Odnoliub MINGW64 /c/Code/Bai_tap_THCS/24174600134_Nguyen_Thuy_Linh_bai_tap (main)
+$ notepad caulenh.txt
+
+thuy linh@T1Odnoliub MINGW64 /c/Code/Bai_tap_THCS/24174600134_Nguyen_Thuy_Linh_bai_tap (main)
+$ git add caulenh.txt
+warning: in the working copy of 'caulenh.txt', CRLF will be replaced by LF the next time Git touches it
+
+thuy linh@T1Odnoliub MINGW64 /c/Code/Bai_tap_THCS/24174600134_Nguyen_Thuy_Linh_bai_tap (main)
+$ git commit -m "Thêm tệp caulenh.txt"
+[main 3473d5e] Thêm tệp caulenh.txt
+ 1 file changed, 547 insertions(+)
+ create mode 100644 caulenh.txt
+
+thuy linh@T1Odnoliub MINGW64 /c/Code/Bai_tap_THCS/24174600134_Nguyen_Thuy_Linh_bai_tap (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.31 KiB | 3.31 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/odnoliubz/24174600134_Nguyen_Thuy_Linh_bai_tap.git
+   51d28c6..3473d5e  main -> main
 
 
 
